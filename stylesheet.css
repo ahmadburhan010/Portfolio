@@ -1,0 +1,147 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration:none;
+    color: inherit;
+}
+body {
+    font-family:sans-serif;
+
+  }
+.container {
+    width: 80%;
+    padding:0;
+    margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+
+.medsos {
+    padding:5px 0px;
+    background-color: #00CED1;
+}
+.medsos ul li {
+    display:inline-block;
+    color:#fff;
+    margin-right: 10px;
+}
+header {
+    height: 70px;
+    
+}
+header h1 {
+  
+    float: left;
+    padding: 15px 0px;
+    color: #00CED1;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display:inline-block;
+}
+header ul li a {
+    display: inline-block ;
+    padding:25px 20px;
+}
+header ul li a:hover {
+    color:#fff;
+    background-color: #00CED1;
+}
+.active {
+    color:#fff;
+    background-color: #00CED1;
+}
+.home {
+    height: 60vh;   
+    background-image: url(https://i.pinimg.com/originals/7a/54/a0/7a54a03ff95039fbeef6867953f68ec2.jpg);
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home::after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(48, 206, 209, 0.4);
+
+}
+
+.home h2 {   
+    z-index: 1;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+main {
+    padding:50px 0;
+}
+
+.tentang {
+    height: 100px;
+    margin-bottom: 80px;
+}
+.tentang p {
+    color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+main h3 {
+    text-align: center;  
+    padding: 20px 0;
+    color: #00CED1;
+    margin-bottom: 25px;  
+}
+main h4 {
+    text-align: center;  
+    padding: 10px 0;
+    color: #00CED1;
+    margin-bottom: 15px;  
+}
+.contact {
+    background-color: #f5f5f5;   
+}
+.contact-info {
+float: left;
+  width: 25%;
+}
+.txt-content {
+  text-align: center;  
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color:#00CED1;  
+}
+footer {
+	padding:30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.label {
+	background-color: #00CED1;
+	color: #fff;
+}
